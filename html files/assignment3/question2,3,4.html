@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Skills</caption>
+        <tr>
+            <th colspan="3">Resume Essentials</th>
+        </tr>
+       <tr>
+        <th>Skill</th>
+        <th>Tech Stack</th>
+        <th>Experience Level</th>
+       </tr>
+       <tr>
+        <td>Frontend</td>
+        <td>Html, CSS, Javascript, Tailwind CSS</td>
+        <td>High</td>
+       </tr>
+       <tr>
+        <td>Backend</td>
+        <td>Node.js</td>
+        <td>Intermediate</td>
+       </tr>
+       <tr>
+        <td>Devops</td>
+        <td>AWS, Docker</td>
+        <td>Basic</td>
+       </tr>
+    </table>
+    <hr>
+    <h3>Contact Me Form</h3>
+    <form>
+        <label for="name">Your Name: </label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required><br>
+        <label for="age">D.O.B -> </label>
+        <input type="date" id="age" name="dob"><br>
+        Gender: <br>
+        <label for="male">Male</label>
+        <input type ="radio" id="male" name="gender" value="male" required>
+        <label for ="female">Female</label>
+        <input type ="radio" id="female" name="gender" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" required><br>
+        <label for="mobileno">Mobile No.-> </label>
+        <input type="number" id="mobileno" name="mobileno" required><br>
+        <label for="email">Email id: </label>
+        <input type="email" name="emailid" id="email"><br>
+        <label for="work">Why you want to cantact me?</label>
+        <select id="work" name="reason for cantacting">
+            <option value="freelancing">For Freelancing Work</option>
+            <option value="internship">For Internship offer</option>
+            <option value="job">To hire in your company</option>
+            <option value="learning">To learn something from me</option>
+            <option value="doubts">Clear some doubts from my project</option>
+            <option value="other">Others</option>
+        </select><br>
+        <label for="review">Review of my website and projects: </label><br>
+        <textarea id="review" name="review" rows="5" cols="50" disabled>Enter your thoughts about my portfolio</textarea><br>
+        <input type="submit" >
+    </form>
+    <h4>Best video for html is: </h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=LVHqIQZkfWoiLtrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
